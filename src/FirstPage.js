@@ -1,14 +1,14 @@
 import React from "react";
 import SecondPage from "./SecondPage";
 import { NavLink, Link, BrowserRouter, Route, Router } from "react-router-dom";
+import './FirstPage.css';
 
 class FirstPage extends React.Component {
   render() {
     return (
       <div>
-        hejhejejhjsdlaksdkklöklö
         <Link to="/SecondPage">
-          <button onClick={() => <SecondPage />}>hejhejhejhjhjksad</button>
+          <button className='button-video' onClick={() => <SecondPage />}>Börja ditt sparande här med 3 enkla steg!</button>
         </Link>
       </div>
     );
