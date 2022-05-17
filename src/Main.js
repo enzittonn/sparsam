@@ -8,10 +8,10 @@ class Main extends React.Component {
   render() {
     return (
       <Router>
-        <div className="layout-container" id="layout-container">
+        <div>
           <Routes>
-            <Route path="/SecondPage" component={() => <SecondPage />} />
-            <Route path="/" component={() => <FirstPage />} />
+            <Route path="/SecondPage" element={<SecondPage />} > </Route>
+            <Route path="/" element={<FirstPage />} > </Route>
           </Routes>
         </div>
       </Router>

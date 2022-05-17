@@ -1,4 +1,4 @@
-import { Button } from "react-native";
+import React from "react";
 import SecondPage from "./SecondPage";
 import { NavLink, Link, BrowserRouter, Route, Router } from "react-router-dom";
 
@@ -8,7 +8,7 @@ class FirstPage extends React.Component {
       <div>
         hejhejejhjsdlaksdkklöklö
         <Link to="/SecondPage">
-          <button onClick={() => <SecondPage />}>Route Name</button>
+          <button onClick={() => <SecondPage />}>hejhejhejhjhjksad</button>
         </Link>
       </div>
     );
