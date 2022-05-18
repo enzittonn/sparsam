@@ -11,7 +11,7 @@ class Main extends React.Component {
         <div>
           <Routes>
             <Route path="/SecondPage" element={<SecondPage />} > </Route>
-            <Route path="/" element={<FirstPage />} > </Route>
+            <Route path="/sparsam" element={<FirstPage />} > </Route>
           </Routes>
         </div>
       </Router>

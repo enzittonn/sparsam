@@ -9,7 +9,6 @@ class SecondPage extends React.Component {
   render() {
     return (
       <div>
-        kom till second page
         <img className="video" src={video} />
       </div>
     );

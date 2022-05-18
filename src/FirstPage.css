@@ -13,9 +13,84 @@
     color:white
   }
 
-  .button-video:hover {
+.button-video:hover {
     background-color: #C9DC18;
     opacity: 1;
     outline: none;
     cursor:pointer;
+}
+
+.label {
+  text-align: right;
+  float: left;
+  margin-top: -20px;
+}
+
+.value-label{
+  text-align: left;
+  float: right;
+  margin-top: -20px;
+}
+
+.tets {
+  float:left;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.testing {
+  display:flex;
+  flex-direction: column;
+}
+
+.sliders {
+  justify-content: flex-start;
+  align-items:flex-start;
+  margin-top: 200px;
+  margin-left: 200px;
+  display: grid;
+  place-items: center;
+}
+
+.horizontal-slider {
+  width: 400px;
+  height: 100px;
+  margin: auto;
+}
+
+.example-thumb {
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  background: #ffffff;
+  border: 5px solid #007AC4;
+  border-radius: 100%;
+  display: block;
+  box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+}
+
+.example-thumb.active {
+  background-color: grey;
+}
+
+.example-track {
+  position: relative;
+  background: #ddd;
+}
+
+.example-track.example-track-0 {
+  background: #007AC4;
+}
+
+.horizontal-slider .example-track {
+  top: 20px;
+  height: 4px;
+}
+
+.horizontal-slider .example-thumb {
+  top: 12px;
+  width: 10px;
+  outline: none;
+  height: 10px;
+  line-height: 38px;
 }
